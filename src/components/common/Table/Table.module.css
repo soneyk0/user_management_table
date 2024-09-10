@@ -1,19 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.container {
+    padding: 20px;
+    border-radius: 8px;
+}
+
 .table {
     width: 100%;
-    margin-bottom: 20px;
-    border: 15px solid lightsteelblue;
-    border-top: 5px solid lightsteelblue;
     border-collapse: collapse;
+    margin-top: 20px;
+    background: #012B39;
+    border-radius: 0.25em;
 }
-.table th {
-    font-weight: bold;
-    padding: 5px;
-    background: lightsteelblue;
-    border: none;
-    border-bottom: 5px solid lightsteelblue;
+
+body {
+    background: #105469;
+    font-family: 'Open Sans', sans-serif;
 }
-.table td {
+
+th {
+    border-bottom: 1px solid #364043;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 15px;
+}
+td {
+    padding: 12px 15px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+}
+
+tbody tr:hover {
+    background: #014055;
+}
+
+input {
+    width: 95%;
     padding: 5px;
-    border: none;
-    border-bottom: 5px solid lightsteelblue;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.nameOfColumn{
+    font-size: 20px ;
 }
