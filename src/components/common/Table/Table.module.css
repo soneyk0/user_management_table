@@ -19,6 +19,7 @@ body {
 }
 
 .table th {
+    min-width: 220px;
     border-bottom: 1px solid #364043;
     color: #E2B842;
     font-size: 0.85em;
