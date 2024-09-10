@@ -1,0 +1,19 @@
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 15px solid lightsteelblue;
+    border-top: 5px solid lightsteelblue;
+    border-collapse: collapse;
+}
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: lightsteelblue;
+    border: none;
+    border-bottom: 5px solid lightsteelblue;
+}
+.table td {
+    padding: 5px;
+    border: none;
+    border-bottom: 5px solid lightsteelblue;
+}
